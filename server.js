@@ -46,7 +46,7 @@ app.use('/api/reports', reportsRoutes);
 
 // Health check
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello! Billing API is working perfectly.' });
+  res.json({ message: 'Hello! Billing API is working perfectly. DigistriveMedia.com' });
 });
 
 // Error handling middleware
@@ -60,3 +60,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
